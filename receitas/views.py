@@ -5,6 +5,6 @@ from django.shortcuts import render
 a = "Senai"
 
 def home(request):
-    return render(request, "home.html", context={'nome': a,})
+    return render(request, "page/home.html", context={'nome': a,})
 
 
