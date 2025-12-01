@@ -79,10 +79,11 @@
         box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
         transition: all 300ms ease-in-out;
         transform: scale(1);
+        border-radius: 1rem;
     }
 
     .principal-conteudo-lista:hover {
-        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.6);
+        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.4);
         transform: scale(1.05);
     }
 
@@ -102,19 +103,28 @@
         font-size: 1.4rem;
         color: #555;
     }
-    receita-meta {
+    .receita-meta {
         display: flex;
         background-color: #ccc;
         padding: 1.6rem 17rem;
         border-top: black 2px solid;
         text-align: center;
     }
-    .receita .footer{
+    .receita-footer{
         text-align: center;
         margin-top: 0rem;
         padding-bottom: 2rem;
         background-color: #13141f;
+
+    }
+
+    .footer-senai a,
+    .copyright {
+        color: white;
         text-decoration: none;
-        padding: 1.6rem 16rem;
+        font-size: 1.4rem;
+    }
+    .footer-senai a:hover {
+        text-decoration: underline;
     }
 </style>
